@@ -26,3 +26,6 @@ noremap({"n", "v"}, "$", "g$")
 
 -- Fast back to normal 
 noremap("i", "jf", "<Esc>")
+
+-- Paste without losing clipboard content
+noremap("v", "<leader>p", "\"_dP")
