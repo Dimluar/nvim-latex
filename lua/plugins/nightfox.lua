@@ -1,1 +1,6 @@
-return { "EdenEast/nightfox.nvim" } -- lazy
+return {
+    "EdenEast/nightfox.nvim",
+    config = function()
+        SetColors("nightfox")
+    end
+}
