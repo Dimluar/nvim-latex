@@ -18,12 +18,6 @@ noremap("n", "N", "Nzz")
 noremap("v", "<", "<v")
 noremap("v", ">", ">v")
 
--- Move by displayed line
-noremap({"n", "v"}, "j", "gj")
-noremap({"n", "v"}, "k", "gk")
-noremap({"n", "v"}, "0", "g0")
-noremap({"n", "v"}, "$", "g$")
-
 -- Fast back to normal 
 noremap("i", "jf", "<Esc>")
 
