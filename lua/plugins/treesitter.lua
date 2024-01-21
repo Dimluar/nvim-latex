@@ -1,23 +1,23 @@
 return {
-	"nvim-treesitter/nvim-treesitter",
-	build = { ":TSUpdate" },
-	config = function()
-		require"nvim-treesitter.configs".setup {
-			ensure_installed = {
+    "nvim-treesitter/nvim-treesitter",
+    build = { ":TSUpdate" },
+    config = function()
+        require("nvim-treesitter.configs").setup({
+            ensure_installed = {
                 "c",
-				"lua",
-				"vim",
-				"vimdoc",
+                "lua",
+                "vim",
+                "vimdoc",
                 "query",
-				"latex",
-			},
+            },
             auto_install = true,
 
-			highlight = {
+            highlight = {
                 enable = true,
+                disable = { "latex" },
             },
 
-			indent = {
+            indent = {
                 enable = true,
             },
 
@@ -30,6 +30,6 @@ return {
                     node_decremental = "<leader>sd",
                 },
             },
-		}
-	end
+        })
+    end,
 }
