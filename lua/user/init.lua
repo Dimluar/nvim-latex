@@ -1,6 +1,6 @@
 require("user.options")
 require("user.keymaps")
-require("user.utils")
+require("utils.color")
 
 vim.g.vimwiki_list = {
   { path = "~/documents/notes/" },

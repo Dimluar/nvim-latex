@@ -7,14 +7,13 @@ function SetColors(scheme)
 end
 
 AllColors = {}
-
 function SelectColors()
     print("Select colorscheme by number.")
 	for key, value in pairs(AllColors) do
 		print(string.format("%d: %s", key, value))
 	end
-	local a = vim.fn.input("Colorscheme > ")
-    local scheme = AllColors[tonumber(a)]
+	local id = vim.fn.input("Colorscheme > ")
+    local scheme = AllColors[tonumber(id)]
     if scheme then
         SetColors(scheme)
     else
