@@ -1,6 +1,9 @@
 local noremap = function(mode, keymap, action)
     vim.keymap.set(mode, keymap, action, { noremap = true })
 end
+local silent = function(mode, keymap, action)
+    vim.keymap.set(mode, keymap, action, { silent = true })
+end
 local keymap = function(mode, keymap, action)
     vim.keymap.set(mode, keymap, action)
 end
@@ -23,3 +26,6 @@ noremap("i", "jf", "<Esc>")
 
 -- Paste without losing clipboard content
 noremap("v", "<leader>p", "\"_dP")
+
+-- Utils
+silent("n", "<leader>uc", ":lua SelectColors()<CR>")
