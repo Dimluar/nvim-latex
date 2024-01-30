@@ -8,3 +8,5 @@ vim.g.vimwiki_list = {
   { path = "~/documents/school/" },
 }
 require("user.lazy")
+
+require("utils.snippet")
