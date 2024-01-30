@@ -83,6 +83,19 @@ return {
 
 	s(
 		{
+			trig = "{{",
+			dscr = "Expand { }",
+			wordTrig = false,
+			snippetType = "autosnippet",
+			condition = in_mathzone,
+		},
+		fmta("\\{ <> \\}", {
+			i(1),
+		})
+	),
+
+	s(
+		{
 			trig = "´(",
 			dscr = "Expand to frac compatible ( )",
 			wordTrig = false,
