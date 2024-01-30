@@ -33,7 +33,7 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.spell = true
-vim.opt.spelllang = { "en" }
+vim.opt.spelllang = { "gl" }
 
 vim.opt.swapfile = false
 vim.opt.backup = false
