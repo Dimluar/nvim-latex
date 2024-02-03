@@ -8,7 +8,6 @@ return {
         opts = {
             ensure_installed = {
                 "lua_ls",
-                "texlab",
             },
         },
     },
@@ -27,9 +26,6 @@ return {
                         },
                     },
                 },
-            })
-            lspconfig.texlab.setup({
-                capabilities = capabilities,
             })
 
             vim.keymap.set("n", "gd", vim.lsp.buf.definition, {})

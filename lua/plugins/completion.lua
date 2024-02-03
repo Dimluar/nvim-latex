@@ -10,12 +10,6 @@ return {
     },
     version = "v2.*",
     build = "make install_jsregexp",
-    config = function()
-      require("luasnip").config.set_config({
-        enable_autosnippets = true,
-        store_selection_keys = "<Tab>",
-      })
-    end,
   },
   {
     "hrsh7th/nvim-cmp",
@@ -31,7 +25,6 @@ return {
       local luasnip = require("luasnip")
 
       require("luasnip.loaders.from_vscode").lazy_load()
-      require("luasnip.loaders.from_lua").lazy_load({ paths = "~/.config/nvim/LuaSnip/" })
 
       cmp.setup({
         snippet = {
