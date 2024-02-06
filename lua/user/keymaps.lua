@@ -30,3 +30,4 @@ noremap("v", "<leader>p", "\"_dP")
 -- Utils
 silent("n", "<leader>uc", ":lua SelectColors()<CR>")
 silent("n", "<leader>ul", ":lua SelectLanguage()<CR>")
+silent("n", "<leader>up", ":lua RunFile()<CR>")
