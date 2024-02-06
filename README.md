@@ -8,3 +8,4 @@ All configurations are going to be saved in branches. That being:
 
 - latex
 - orgmode
+- light
