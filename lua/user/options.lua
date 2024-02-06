@@ -31,6 +31,9 @@ options = {
 	-- Using the mouse
 	mouse = "a",
 
+  -- Messages and info
+  showmode = false,
+
 	-- Editing text
 	undofile = true,
 
