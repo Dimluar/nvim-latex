@@ -1,10 +1,5 @@
-# nvim
+# nvim-light
 
-Personal neovim configuration.
+This configuration was made to be used in an android device. Using termux and proot-distro.
 
-The main branch is going to work as a template for any needed configuration created in the future.
-
-All configurations are going to be saved in branches. That being:
-
-- latex
-- orgmode
+It's main use is going to be python programming.
