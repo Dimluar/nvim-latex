@@ -12,8 +12,8 @@ vim.opt.signcolumn = "yes"
 vim.opt.splitbelow = true
 vim.opt.splitright = true
 
-vim.opt.wrap = true
-vim.opt.breakindent = true
+vim.opt.wrap = false
+vim.opt.breakindent = false
 
 vim.opt.tabstop = 2
 vim.opt.softtabstop = 2
@@ -33,7 +33,7 @@ vim.opt.incsearch = true
 vim.opt.termguicolors = true
 
 vim.opt.spell = true
-vim.opt.spelllang = { "gl" }
+vim.opt.spelllang = { "en" }
 
 vim.opt.swapfile = false
 vim.opt.backup = false
@@ -42,5 +42,5 @@ vim.opt.undofile = true
 vim.opt.fileencoding = "utf-8"
 vim.opt.hidden = true
 
-vim.opt.showmode = false
+vim.opt.showmode = true
 vim.opt.updatetime = 300
