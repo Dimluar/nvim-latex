@@ -10,7 +10,7 @@ return {
 
 				-- Python
 				null_ls.builtins.formatting.black,
-				null_ls.builtins.diagnostics.pylint,
+				null_ls.builtins.diagnostics.pylint.with({prefer_local = "~/anaconda3/envs/pynvim/bin"}),
 			},
 		})
 

@@ -1,6 +1,8 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
 
+vim.g.python3_host_prog = "~/anaconda3/envs/pynvim/bin/python"
+
 vim.opt.number = true
 vim.opt.relativenumber = true
 vim.opt.conceallevel = 2
