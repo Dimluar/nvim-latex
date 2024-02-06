@@ -1,3 +1,3 @@
-# nvim-latex
+# nvim-experimental
 
-Personal neovim configuration for writing latex documents.
+In this configuration I'm going to try to start from scratch step by step.
