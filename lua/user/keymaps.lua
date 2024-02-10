@@ -9,10 +9,10 @@ nmap("-", vim.cmd.Ex)
 
 -- Window split
 wk.register({
-  ["<leader>"] = {
-    ["-"] = { "<Cmd>split<CR>", "Horizontal split" },
-    ["|"] = { "<Cmd>vsplit<CR>", "Vertical split" },
-  },
+	["<leader>"] = {
+		["-"] = { "<Cmd>split<CR>", "Horizontal split" },
+		["|"] = { "<Cmd>vsplit<CR>", "Vertical split" },
+	},
 })
 
 nmap("<C-h>", "<C-w>h")
